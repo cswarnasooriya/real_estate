@@ -5,7 +5,7 @@ import Hello from './Components/Hello/Hello';
 // import Contact from './Components/Contact/Contact';
 // import Listing from './Components/Listing/Listing';
 // import About from './Components/About/About';
-// import Popular from './Components/Popular/Popular';
+import Popular from './Components/Popular/Popular';
 import Sponser from './Components/Sponser/Sponser';
 // import Subscribe from './Components/Subscribe/Subscribe';
 
@@ -19,14 +19,7 @@ function App() {
       <Navbar/>
       <Hello/>
       <Sponser/>
-      <Sponser/>
-      <Sponser/>
-      <Sponser/>
-      <Sponser/>
-      <Sponser/>
-      <Sponser/>
-
-      <Sponser/>
+      <Popular/>
      
 
      
