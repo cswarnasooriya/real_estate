@@ -9,17 +9,37 @@ import { TbGridDots } from "react-icons/tb";
 const Navbar = () => {
   
   const [menu, setMenu] = useState('menu')
+
+  //function to show navbar
   const shownavbar = ()=>{
     setMenu("shownavbar menu");
   };
 
+
+  //function to close navbar
   const removenavbar = ()=>{
     setMenu("menu");
   };
 
-  //function to show navbar
+
+  //function to add a background to the navbar on scroll
+
+  const[transparent, setTransparent] = useState("navbar");
+  const addBG = ()=>{
+    if(window.scrollY >= 10) {
+      setTransparent("navbar addBackground");
+      
+
+    }else{
+      setTransparent("navbar");
+    }
+
+  };
+
+  window.addEventListener("scroll", addBG);
+
   return (
-    <div className='navbar'>
+    <div className={transparent}>
       <div className="logoDiv">
         <SiHomeassistant className="icon"/>
         <span>Dremz</span>
@@ -34,6 +54,8 @@ const Navbar = () => {
           <li className="navList">About Us</li>
 
         </ul>
+
+        
         {/*icons to close navbar on small devices*/}
         <IoIosCloseCircleOutline className='icon closeIcon' onClick={removenavbar}/>
       </div>

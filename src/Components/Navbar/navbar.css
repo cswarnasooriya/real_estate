@@ -47,9 +47,11 @@
   justify-content: center;
 }
 .navbar .logoDiv .icon {
+  color: var(--whiteColor);
   margin-right: 0.5rem;
 }
 .navbar .logoDiv span {
+  color: var(--whiteColor);
   font-size: var(--h2FontSize);
   justify-content: center;
   font-weight: 500;
@@ -89,7 +91,7 @@
 }
 .navbar .closeIcon {
   position: absolute;
-  bottom: -10px;
+  bottom: -25px;
   right: 50%;
   left: 50%;
   transform: translate(-50%);
@@ -102,4 +104,16 @@
 }
 .navbar .shownavbar {
   top: 8rem;
+}
+
+.addBackground {
+  background: var(--whiteColor);
+  transition: 0.2s ease-in-out;
+}
+.addBackground .logoDiv .icon,
+.addBackground .logoDiv span {
+  color: var(--primaryColorDark);
+}
+.addBackground .menuIcon {
+  color: var(--primaryColorDark);
 }/*# sourceMappingURL=navbar.css.map */

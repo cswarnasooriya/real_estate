@@ -4,7 +4,7 @@ import "./sponser.css"
 const Sponser = () => {
   return (
     <div>
-      
+      Sponser
     </div>
   )
 }

@@ -55,12 +55,12 @@
         justify-content: center;
 
         .icon{
-           // color: var(--whiteColor);
+           color: var(--whiteColor);
             margin-right: .5rem;
         }
 
         span{
-           // color: var(--whiteColor);
+           color: var(--whiteColor);
             font-size: var(--h2FontSize);
             justify-content: center;
             font-weight: 500;
@@ -107,7 +107,7 @@
 
     .closeIcon{
         position: absolute;
-        bottom: -10px;
+        bottom: -25px;
         right: 50%;
         left: 50%;
         transform: translate(-50%);
@@ -121,4 +121,23 @@
     .shownavbar{
         top: 8rem;
     }
+}
+
+.addBackground{
+    background: var(--whiteColor);
+    transition: .2s ease-in-out;
+
+    .logoDiv{
+        
+      .icon, 
+       span {
+        color: var(--primaryColorDark);
+            
+       }
+    }
+
+    .menuIcon{
+         color: var(--primaryColorDark);
+    }
+            
 }
