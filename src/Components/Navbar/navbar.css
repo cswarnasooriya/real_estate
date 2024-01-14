@@ -10,7 +10,7 @@
 :root {
   --primaryColor: hsl(228, 66%, 53%);
   --primaryColorLight: #hsl(223,100%,97%);
-  --primaryColorDark: hsl(114,58%,28%);
+  --primaryColorDark: hsl(216,58%,28%);
   --gradientLight: rgb(114,145,255);
   --bgColor:hsl(0,0%,100%)
   --formColor: hsl(20,42%,87%);
