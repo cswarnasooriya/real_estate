@@ -44,13 +44,13 @@ const Popular = () => {
                     <div className="info">
                         <span className="price">
                             <span className="orangeText">
-                                $
+                                LKR
                             </span>
                             <span className="digits">
-                                45,550
+                                 325,500
                             </span>
                         </span>
-                        <h2 className="name">Enjoy Prica Jarfin</h2>
+                        <h2 className="name">Enjoy Life in Jaffna</h2>
                         <p>
                             A stunning penthouse with skyline view and private terrace.
                         </p>
@@ -67,13 +67,13 @@ const Popular = () => {
                     <div className="info">
                         <span className="price">
                             <span className="orangeText">
-                                $
+                                LKR
                             </span>
                             <span className="digits">
-                                52,850
+                                210,850
                             </span>
                         </span>
-                        <h2 className="name">Mountain Retreat, Aspen</h2>
+                        <h2 className="name">Mountlevenia Rural Relax</h2>
                         <p>
                             A enjoying life with skyline view and holiday terrace.
                         </p>
@@ -89,13 +89,13 @@ const Popular = () => {
                     <div className="info">
                         <span className="price">
                             <span className="orangeText">
-                                $
+                                LKR
                             </span>
                             <span className="digits">
-                                55,200
+                                155,200
                             </span>
                         </span>
-                        <h2 className="name">Contemorary Conde</h2>
+                        <h2 className="name">BeachSide Heritage Global</h2>
                         <p>
                             A marvel cityside and tour location in holiday benches.
                         </p>
